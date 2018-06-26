@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HP WorkWise test Suite]">
+  <test name="HP WorkWise POC(failed)">
+    <classes>
+      <class name="com.test.AUT.testcases.ApkDownloadFromhockeyApp_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="ApkDownloadFromhockeyApp"/>
+        </methods>
+      </class> <!-- com.test.AUT.testcases.ApkDownloadFromhockeyApp_Test -->
+    </classes>
+  </test> <!-- HP WorkWise POC(failed) -->
+</suite> <!-- Failed suite [HP WorkWise test Suite] -->

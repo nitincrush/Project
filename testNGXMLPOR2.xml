@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HP WorkWise test Suite" verbose="1" group-by-instances="true" parallel = "tests" thread-count="2">
+	<test name="HP WorkWise POC">
+		<classes>
+			<class name="com.test.AUT.testcases.HpWorkWiseInstallAndLauch_Test">
+				<methods>
+				<!-- <include name="setup" /> -->
+					<include name="test" />
+				</methods>
+			</class>
+			</classes>		
+	</test>
+	<test name="HP WorkWise POC1">
+		<classes>
+			<class name="com.test.AUT.testcases.HpWorkWiseBluetoothCalibration_Test">
+			<methods>
+			<!-- <include name="setup1" /> -->
+					<include name="launch" />
+				</methods>
+			</class>
+			</classes>
+	</test>
+	<test name="HP WorkWise POC2">
+		<classes>
+			<class name="com.test.AUT.testcases.UnregisterHPWorkWise_Test">
+			<methods>
+					<include name="unregisterFromPCWorkwise" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
